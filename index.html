@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Rang Rivaaj: everyday clothing for men, women and kids in colours from Sindh and the coast. Cash on delivery across Pakistan.">
+<title>Rang Rivaaj | Clothing Store</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="announce">Free delivery on orders above Rs 5,000. Pay cash on delivery.</div>
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="#/">Rang <i>Rivaaj</i></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#/shop" data-nav="shop">Shop</a>
+      <a href="#/about" data-nav="about">About</a>
+      <a href="#/contact" data-nav="contact">Contact</a>
+    </nav>
+    <div class="tools">
+      <input type="search" id="search" placeholder="Search clothes" aria-label="Search products">
+      <a class="icon-link" href="#/wishlist" aria-label="Wishlist">&#9825; <span class="count" id="wishCount">0</span></a>
+      <button class="cart-btn" id="openCart" aria-label="Open cart">Cart <span class="count" id="cartCount">0</span></button>
+    </div>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<footer class="site-foot">
+  <div class="wrap foot-grid">
+    <div>
+      <a class="brand" href="#/">Rang <i>Rivaaj</i></a>
+      <p>Everyday clothing in six colours from Sindh and the coast.</p>
+    </div>
+    <div>
+      <h4>Shop</h4>
+      <a href="#/shop">All clothing</a>
+      <a href="#/wishlist">Wishlist</a>
+    </div>
+    <div>
+      <h4>Help</h4>
+      <a href="#/returns">Delivery and returns</a>
+      <a href="#/contact">Contact us</a>
+      <a href="#/about">About us</a>
+    </div>
+    <div>
+      <h4>Get new colours first</h4>
+      <div class="news">
+        <input type="email" id="newsEmail" placeholder="Your email" aria-label="Email address" autocomplete="email">
+        <button class="btn small" data-action="newsletter">Sign up</button>
+      </div>
+      <div class="err" id="newsMsg" role="status"></div>
+    </div>
+  </div>
+  <div class="wrap legal">&copy; 2026 Rang Rivaaj. All rights reserved.</div>
+</footer>
+
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="drawer" aria-label="Shopping cart" aria-hidden="true">
+  <header><h2 id="drawerTitle">Your cart</h2><button class="icon-btn" id="closeCart" aria-label="Close cart">&times;</button></header>
+  <div class="content" id="drawerBody"></div>
+  <div class="foot" id="drawerFoot"></div>
+</aside>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
