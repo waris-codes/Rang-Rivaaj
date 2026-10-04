@@ -2,7 +2,7 @@
 
 A clothing store website I made as a front-end project. It sells kurtas, t-shirts, hoodies and dupattas for men, women and kids, and works on both phone and desktop.
 
-Live site: waris-codes.github.io/Rang-Rivaaj/
+Live site: https://waris-codes.github.io/Rang-Rivaaj/
 
 ## What it does
 
